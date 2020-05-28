@@ -1,0 +1,34 @@
+1- Installing NodeJS on Machine
+
+    Install latest version of NodeJS from NodeJS.org, it will install nodejs and npm 
+
+2 - Database of the application is hosted on Mongodb ATLAS cloud, you don't need to dp anything for the database.
+
+3 - Running the project
+
+    - Project has been created in ExpressJS using express generator.
+    - Front - End is not developed. Use of PostMan required.
+    
+    - Go to project folder and open Command Prompt(Terminal) as Administrator.
+    - Type ' npm install '(without quotes) in Command Prompt(Terminal).
+    - Type ' npm start ' to start the server and check various APIs with PostMan.
+
+
+
+
+// Various APIs of the Application.
+
+1- 'localhost:3000/' index route.
+2- 'localhost:3000/signup' for registering on the application. (use any valid email and password, valid email validation is present).
+3- 'localhost:3000/login' for loging in to the application. (for login you can use ( user-> pankaj.singh1998@gmail.com, pass-> pankaj1234).
+4- use token generated after login to bypass authorization of application. (i assume you know how to pass Authporization header from PostMan).
+5- play with other APIs.
+    localhost:3000/:userId (POST)
+    localhost:3000/:userId (GET)
+    localhost:3000/:userId/:eventId (GET, PATCH, DELETE).
+
+Thank You.
+if you face any difficulty in runnig the project
+leave a whatsapp message or mail.
+whatsapp - 9005797072
+mail - mail.pankaj1001@gmail.com
